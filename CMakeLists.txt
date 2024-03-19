@@ -20,7 +20,7 @@ find_package(ament_cmake_vendor_package REQUIRED)
 find_package(ament_cmake_export_dependencies REQUIRED)
 
 find_package(gz_cmake_vendor REQUIRED)
-find_package(gazebo_dartsim_vendor REQUIRED)
+find_package(gz_dartsim_vendor REQUIRED)
 find_package(gz_common_vendor REQUIRED)
 find_package(gz_math_vendor REQUIRED)
 find_package(gz_plugin_vendor REQUIRED)
@@ -64,7 +64,7 @@ endif()
 
 ament_export_dependencies(
   gz_cmake_vendor
-  gazebo_dartsim_vendor
+  gz_dartsim_vendor
   gz_common_vendor
   gz_math_vendor
   gz_plugin_vendor

@@ -20,7 +20,7 @@
   <exec_depend>bullet</exec_depend>
   <exec_depend>eigen</exec_depend>
   <depend>gz_cmake_vendor</depend>
-  <depend>gazebo_dartsim_vendor</depend>
+  <depend>gz_dartsim_vendor</depend>
   <depend>gz_common_vendor</depend>
   <depend>gz_math_vendor</depend>
   <depend>gz_plugin_vendor</depend>
@@ -28,7 +28,7 @@
   <depend>sdformat_vendor</depend>
 
   <!-- Depend on the package we are vendoring to allow building it from source -->
-  <build_depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-physics7</build_depend>
+  <depend condition="$GZ_BUILD_FROM_SOURCE != ''">gz-physics7</depend>
 
   <test_depend>ament_cmake_copyright</test_depend>
   <test_depend>ament_cmake_lint_cmake</test_depend>
